@@ -1,0 +1,12 @@
+.person.super-user{
+  font-size:2em;
+  font-weight:bold;
+}
+
+.person{
+  border:1px solid blue;
+}
+
+.person + .person{
+  margin-top:10px;
+}
